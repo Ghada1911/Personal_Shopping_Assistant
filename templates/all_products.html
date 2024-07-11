@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <link rel="stylesheet" href="static/style.css">
+    <!-- Using a reliable CDN for FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-5e2ESR8Ycmos6g3gAKr1Jvwye8sW4U1u/cAKulfVJnkakCcMqhOudbtPnvJ+nbv7" crossorigin="anonymous">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+    <style>
+        .product { 
+            display: inline-block; 
+            margin: 10px; 
+            cursor: pointer; 
+            width: 150px; 
+            text-align: center;
+            vertical-align: top;
+        }
+        .product img { 
+            width: 100px; 
+            height: 100px; 
+            object-fit: cover; 
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="/chatbot"><i class="fas fa-comments"></i> Chatbot</a></li>
+            <li><a href="/all-products"><i class="fas fa-th-list"></i> All Products</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <div id="products"></div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('/products')
+                .then(response => response.json())
+                .then(data => displayProducts(data));
+        });
+    
+        function displayProducts(products) {
+            const productsDiv = document.getElementById('products');
+            productsDiv.innerHTML = '';
+            products.forEach(product => {
+                const productDiv = document.createElement('div');
+                productDiv.classList.add('product');
+                productDiv.innerHTML = `
+                    <img src="/static/images/${product.image}" alt="${product.name}">
+                    <h3>${product.name}</h3>
+                `;
+                productDiv.addEventListener('click', () => {
+                    window.location.href = `/product/details?name=${encodeURIComponent(product.name)}`;
+                });
+
+                productsDiv.appendChild(productDiv);
+            });
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,419 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 200px;
+    height: 100vh; /* Make sure it takes up the full height */
+    background-color: #2E8B57; /* Updated to SeaGreen */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.sidebar ul li {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.sidebar ul li a i {
+    margin-right: 10px;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.home-container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 0 auto; /* Center the chat container */
+}
+
+
+.homepage-image {
+    max-width: 100%; /* Image won't exceed the width of its container */
+    height: auto;    /* Maintain aspect ratio */
+    margin-top: 20px;
+    max-height: 400px; /* Limit the maximum height */
+}
+
+.chat-container {
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: slideInFromLeft 0.5s ease; /* Slide-in animation */
+    position: relative;
+    z-index: 1;
+}
+
+/* Chatbot Header */
+.chat-header {
+    background-color: #2E8B57; /* Updated to SeaGreen */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Chatbox */
+#chatbox {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}/* User Message */
+.user-message {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.user-message .message-bubble {
+    background-color: #2E8B57; /* Updated to SeaGreen */
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 70%;
+    word-wrap: break-word;
+    position: relative; /* Ensure position is relative for pseudo-element */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.user-message .message-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -10px; /* Adjust as needed */
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #2E8B57 transparent transparent; /* Match bubble color */
+}
+
+/* Bot Message */
+.bot-message {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.bot-message .message-bubble {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 70%;
+    word-wrap: break-word;
+    position: relative; /* Ensure position is relative for pseudo-element */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.bot-message .message-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -10px; /* Adjust as needed */
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #f0f0f0; /* Match bubble color */
+}
+
+/* Input Container */
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-right: 10px ;
+    font-size: 16px;
+}
+
+.input-container button {
+    background-color: #2E8B57; /* SeaGreen */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    min-width: 100px; /* Set a minimum width */
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+}
+
+.input-container button:hover {
+    background-color: #3CB371; /* MediumSeaGreen - Lighter shade of SeaGreen */
+}
+
+.input-container button#speak-btn {
+    background-color: #FFA500; /* Orange */
+    margin-left: 10px;
+}
+
+.input-container button#speak-btn:hover {
+    background-color: #FFD700; /* Gold - Lighter shade of Orange */
+}
+
+.input-container #loader {
+    display: none;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #2E8B57; /* SeaGreen */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+/* Chat Footer */
+.chat-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+}
+
+.chat-footer p {
+    margin: 0;
+    color: #666;
+}
+
+.chat-footer .toggle-button {
+    background-color: transparent;
+    border: none;
+    color: #2E8B57; /* Updated to SeaGreen */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.chat-footer .toggle-button i {
+    margin-right: 5px;
+}
+
+.product-image {
+    max-width: 150px;
+}
+
+/* File Upload Section */
+.file-upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    height: auto !important; /* Force height to auto */
+}
+
+.file-label {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: #2E8B57; /* Adjust the color as needed */
+    margin-left: 10px;
+    height: auto !important; /* Force height to auto */
+    visibility: visible !important; /* Force visibility */
+}
+
+.file-label i {
+    margin-right: 5px;
+    visibility: visible !important; /* Force visibility */
+    height: auto !important; /* Force height to auto */
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+}
+/* Specific Styles for Product Added Page */
+.product-added-body {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh;
+    background-color: #fff; /* Example background color */
+}
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin: 20px 0 10px;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+
+/* style.css */
+body.product-added-body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Animation */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .chat-container {
+        border-radius: 0;
+    }
+
+    .chat-header, .input-container, .chat-footer {
+        border-radius: 0;
+    }
+
+    .user-message, .bot-message {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .user-message .message-bubble, .bot-message .message-bubble {
+        max-width: 100%;
+    }
+
+    .input-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .input-container input[type="text"] {
+        margin-bottom: 10px;
+    }
+
+    .input-container button {
+        margin-bottom: 10px;
+        width: 100%; /* Full width button */
+    }
+
+    .input-container button#speak-btn {
+        margin-left: 0;
+        width: 100%; /* Full width button */
+    }
+    .main-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .home-container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .homepage-image {
+        width: 100%;
+    }
+}

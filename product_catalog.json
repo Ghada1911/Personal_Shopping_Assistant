@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Ghanem Shoes",
+        "price": 100,
+        "image": "product1.jpg",
+        "description": "New style shoes for everyday use.",
+        "cart_url": "/add_to_cart/product1"
+    },
+    {
+        "name": "Stylish Jacket",
+        "price": 200,
+        "image": "product2.jpg",
+        "description": "A stylish jacket for any occasion.",
+        "cart_url": "/add_to_cart/product2"
+    },
+    {
+        "name": "Modern Watch",
+        "price": 150,
+        "image": "product3.jpg",
+        "description": "A modern watch with a sleek design.",
+        "cart_url": "/add_to_cart/product3"
+    },
+    {
+        "name": "Leather Wallet",
+        "price": 80,
+        "image": "product4.jpg",
+        "description": "A classic leather wallet with multiple compartments.",
+        "cart_url": "/add_to_cart/product4"
+    },
+    {
+        "name": "Smartphone Stand",
+        "price": 20,
+        "image": "product5.jpg",
+        "description": "A foldable smartphone stand for easy viewing.",
+        "cart_url": "/add_to_cart/product5"
+    },
+    {
+        "name": "Designer Sunglasses",
+        "price": 180,
+        "image": "product6.jpg",
+        "description": "High-quality designer sunglasses with UV protection.",
+        "cart_url": "/add_to_cart/product6"
+    },
+    {
+        "name": "Fitness Tracker",
+        "price": 120,
+        "image": "product7.jpg",
+        "description": "A fitness tracker with heart rate monitoring and GPS.",
+        "cart_url": "/add_to_cart/product7"
+    },
+    {
+        "name": "Portable Bluetooth Speaker",
+        "price": 50,
+        "image": "product8.jpg",
+        "description": "A portable Bluetooth speaker with crisp sound quality.",
+        "cart_url": "/add_to_cart/product8"
+    },
+    {
+        "name": "Travel Backpack",
+        "price": 90,
+        "image": "product9.jpg",
+        "description": "A durable travel backpack with multiple compartments.",
+        "cart_url": "/add_to_cart/product9"
+    },
+    {
+        "name": "Wireless Earbuds",
+        "price": 70,
+        "image": "product10.jpg",
+        "description": "High-fidelity wireless earbuds for immersive sound.",
+        "cart_url": "/add_to_cart/product10"
+    }
+]

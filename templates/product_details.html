@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-5e2ESR8Ycmos6g3gAKr1Jvwye8sW4U1u/cAKulfVJnkakCcMqhOudbtPnvJ+nbv7" crossorigin="anonymous">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <style>
+        .product-details {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .product-details img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="/chatbot"><i class="fas fa-comments"></i> Chatbot</a></li>
+            <li><a href="/all-products"><i class="fas fa-th-list"></i> All Products</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <div class="product-details">
+            <img id="product-image" src="" alt="">
+            <h2 id="product-name"></h2>
+            <p id="product-price"></p>
+            <p id="product-description"></p>
+            <a id="add-to-cart" href=""><button>Add to Cart</button></a>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const productName = urlParams.get('name');
+
+            fetch(`/api/product/${encodeURIComponent(productName)}`)
+                .then(response => response.json())
+                .then(data => displayProductDetails(data));
+        });
+
+        function displayProductDetails(product) {
+            document.getElementById('product-image').src = `/static/images/${product.image}`;
+            document.getElementById('product-name').innerText = product.name;
+            document.getElementById('product-price').innerText = `$${product.price}`;
+            document.getElementById('product-description').innerText = product.description;
+            document.getElementById('add-to-cart').href = product.cart_url;
+        }
+    </script>
+</body>
+</html>

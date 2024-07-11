@@ -1,0 +1,702 @@
+[
+    {
+        "name": "Espresso Machine",
+        "price": 177,
+        "image": "product1.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product1"
+    },
+    {
+        "name": "Streaming Stick",
+        "price": 88,
+        "image": "product2.jpg",
+        "description": "Compact and powerful.",
+        "cart_url": "/add_to_cart/product2"
+    },
+    {
+        "name": "Bluetooth Tracker",
+        "price": 387,
+        "image": "product3.jpg",
+        "description": "Compact and powerful.",
+        "cart_url": "/add_to_cart/product3"
+    },
+    {
+        "name": "Smart Switch",
+        "price": 37,
+        "image": "product4.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product4"
+    },
+    {
+        "name": "Wireless Router",
+        "price": 378,
+        "image": "product5.jpg",
+        "description": "Sleek and modern design.",
+        "cart_url": "/add_to_cart/product5"
+    },
+    {
+        "name": "Travel Mug",
+        "price": 377,
+        "image": "product6.jpg",
+        "description": "Enhance your experience.",
+        "cart_url": "/add_to_cart/product6"
+    },
+    {
+        "name": "Digital Camera",
+        "price": 161,
+        "image": "product7.jpg",
+        "description": "Comfort and functionality.",
+        "cart_url": "/add_to_cart/product7"
+    },
+    {
+        "name": "Instant Pot",
+        "price": 52,
+        "image": "product8.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product8"
+    },
+    {
+        "name": "Portable Charger",
+        "price": 289,
+        "image": "product9.jpg",
+        "description": "High-quality product for everyday use.",
+        "cart_url": "/add_to_cart/product9"
+    },
+    {
+        "name": "Smart Thermostat",
+        "price": 376,
+        "image": "product10.jpg",
+        "description": "Sleek and modern design.",
+        "cart_url": "/add_to_cart/product10"
+    },
+    {
+        "name": "Laptop Stand",
+        "price": 393,
+        "image": "product10.jpg",
+        "description": "Comfort and functionality.",
+        "cart_url": "/add_to_cart/product11"
+    },
+    {
+        "name": "LED Desk Lamp",
+        "price": 26,
+        "image": "product10.jpg",
+        "description": "User-friendly and efficient.",
+        "cart_url": "/add_to_cart/product12"
+    },
+    {
+        "name": "USB-C Hub",
+        "price": 80,
+        "image": "product10.jpg",
+        "description": "User-friendly and efficient.",
+        "cart_url": "/add_to_cart/product13"
+    },
+    {
+        "name": "Security Camera",
+        "price": 72,
+        "image": "product10.jpg",
+        "description": "User-friendly and efficient.",
+        "cart_url": "/add_to_cart/product14"
+    },
+    {
+        "name": "Portable Hard Drive",
+        "price": 69,
+        "image": "product10.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product15"
+    },
+    {
+        "name": "Wireless Mouse",
+        "price": 137,
+        "image": "product10.jpg",
+        "description": "Elegant and stylish.",
+        "cart_url": "/add_to_cart/product16"
+    },
+    {
+        "name": "Laptop Stand",
+        "price": 118,
+        "image": "product10.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product17"
+    },
+    {
+        "name": "Travel Mug",
+        "price": 193,
+        "image": "product10.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product18"
+    },
+    {
+        "name": "Smart Switch",
+        "price": 384,
+        "image": "product10.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product19"
+    },
+    {
+        "name": "Wireless Mouse",
+        "price": 50,
+        "image": "product10.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product20"
+    },
+    {
+        "name": "Smart Lock",
+        "price": 394,
+        "image": "product10.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product21"
+    },
+    {
+        "name": "Wireless Mouse",
+        "price": 154,
+        "image": "product10.jpg",
+        "description": "Top-of-the-line features.",
+        "cart_url": "/add_to_cart/product22"
+    },
+    {
+        "name": "Leather Belt",
+        "price": 139,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product23"
+    },
+    {
+        "name": "Digital Camera",
+        "price": 339,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product24"
+    },
+    {
+        "name": "Security Camera",
+        "price": 154,
+        "image": "product10.jpg",
+        "description": "User-friendly and efficient.",
+        "cart_url": "/add_to_cart/product25"
+    },
+    {
+        "name": "Smart Light Bulb",
+        "price": 280,
+        "image": "product10.jpg",
+        "description": "User-friendly and efficient.",
+        "cart_url": "/add_to_cart/product26"
+    },
+    {
+        "name": "Casual T-Shirt",
+        "price": 447,
+        "image": "product10.jpg",
+        "description": "Elegant and stylish.",
+        "cart_url": "/add_to_cart/product27"
+    },
+    {
+        "name": "Streaming Stick",
+        "price": 362,
+        "image": "product10.jpg",
+        "description": "Top-of-the-line features.",
+        "cart_url": "/add_to_cart/product28"
+    },
+    {
+        "name": "Standing Desk",
+        "price": 270,
+        "image": "product10.jpg",
+        "description": "Ideal for home or office.",
+        "cart_url": "/add_to_cart/product29"
+    },
+    {
+        "name": "Smart Plug",
+        "price": 102,
+        "image": "product10.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product30"
+    },
+    {
+        "name": "USB-C Hub",
+        "price": 86,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product31"
+    },
+    {
+        "name": "Bluetooth Headphones",
+        "price": 491,
+        "image": "product10.jpg",
+        "description": "Enhance your experience.",
+        "cart_url": "/add_to_cart/product32"
+    },
+    {
+        "name": "Smart Scale",
+        "price": 421,
+        "image": "product10.jpg",
+        "description": "Enhance your experience.",
+        "cart_url": "/add_to_cart/product33"
+    },
+    {
+        "name": "VR Headset",
+        "price": 126,
+        "image": "product10.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product34"
+    },
+    {
+        "name": "Smart Plug",
+        "price": 224,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product35"
+    },
+    {
+        "name": "Smart Plug",
+        "price": 182,
+        "image": "product10.jpg",
+        "description": "Designed for performance.",
+        "cart_url": "/add_to_cart/product36"
+    },
+    {
+        "name": "LED Desk Lamp",
+        "price": 432,
+        "image": "product10.jpg",
+        "description": "Advanced technology.",
+        "cart_url": "/add_to_cart/product37"
+    },
+    {
+        "name": "Running Shoes",
+        "price": 90,
+        "image": "product10.jpg",
+        "description": "Designed for performance.",
+        "cart_url": "/add_to_cart/product38"
+    },
+    {
+        "name": "Bluetooth Tracker",
+        "price": 310,
+        "image": "product10.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product39"
+    },
+    {
+        "name": "Video Doorbell",
+        "price": 282,
+        "image": "product10.jpg",
+        "description": "Advanced technology.",
+        "cart_url": "/add_to_cart/product40"
+    },
+    {
+        "name": "Security Camera",
+        "price": 43,
+        "image": "product10.jpg",
+        "description": "Advanced technology.",
+        "cart_url": "/add_to_cart/product41"
+    },
+    {
+        "name": "Smart Thermostat",
+        "price": 67,
+        "image": "product10.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product42"
+    },
+    {
+        "name": "Robot Vacuum",
+        "price": 447,
+        "image": "product10.jpg",
+        "description": "Comfort and functionality.",
+        "cart_url": "/add_to_cart/product43"
+    },
+    {
+        "name": "Smart Plug",
+        "price": 463,
+        "image": "product10.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product44"
+    },
+    {
+        "name": "Elegant Dress",
+        "price": 343,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product45"
+    },
+    {
+        "name": "Travel Mug",
+        "price": 129,
+        "image": "product10.jpg",
+        "description": "Enhance your experience.",
+        "cart_url": "/add_to_cart/product46"
+    },
+    {
+        "name": "Electric Toothbrush",
+        "price": 102,
+        "image": "product10.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product47"
+    },
+    {
+        "name": "Home Theater System",
+        "price": 98,
+        "image": "product10.jpg",
+        "description": "Sleek and modern design.",
+        "cart_url": "/add_to_cart/product48"
+    },
+    {
+        "name": "Baby Monitor",
+        "price": 105,
+        "image": "product10.jpg",
+        "description": "Top-of-the-line features.",
+        "cart_url": "/add_to_cart/product49"
+    },
+    {
+        "name": "Bluetooth Headphones",
+        "price": 178,
+        "image": "product10.jpg",
+        "description": "Designed for performance.",
+        "cart_url": "/add_to_cart/product50"
+    },
+    {
+        "name": "Smart Switch",
+        "price": 210,
+        "image": "product10.jpg",
+        "description": "Elegant and stylish.",
+        "cart_url": "/add_to_cart/product51"
+    },
+    {
+        "name": "Security Camera",
+        "price": 211,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product52"
+    },
+    {
+        "name": "LED Desk Lamp",
+        "price": 47,
+        "image": "product10.jpg",
+        "description": "Comfort and functionality.",
+        "cart_url": "/add_to_cart/product53"
+    },
+    {
+        "name": "Air Purifier",
+        "price": 106,
+        "image": "product10.jpg",
+        "description": "Top-of-the-line features.",
+        "cart_url": "/add_to_cart/product54"
+    },
+    {
+        "name": "3D Printer",
+        "price": 116,
+        "image": "product10.jpg",
+        "description": "Advanced technology.",
+        "cart_url": "/add_to_cart/product55"
+    },
+    {
+        "name": "Air Purifier",
+        "price": 428,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product56"
+    },
+    {
+        "name": "Home Theater System",
+        "price": 37,
+        "image": "product10.jpg",
+        "description": "High-quality product for everyday use.",
+        "cart_url": "/add_to_cart/product57"
+    },
+    {
+        "name": "Instant Pot",
+        "price": 218,
+        "image": "product10.jpg",
+        "description": "User-friendly and efficient.",
+        "cart_url": "/add_to_cart/product58"
+    },
+    {
+        "name": "3D Printer",
+        "price": 140,
+        "image": "product10.jpg",
+        "description": "Designed for performance.",
+        "cart_url": "/add_to_cart/product59"
+    },
+    {
+        "name": "Dash Cam",
+        "price": 38,
+        "image": "product10.jpg",
+        "description": "Compact and powerful.",
+        "cart_url": "/add_to_cart/product60"
+    },
+    {
+        "name": "Pressure Cooker",
+        "price": 403,
+        "image": "product10.jpg",
+        "description": "Elegant and stylish.",
+        "cart_url": "/add_to_cart/product61"
+    },
+    {
+        "name": "Electric Kettle",
+        "price": 53,
+        "image": "product10.jpg",
+        "description": "Ideal for home or office.",
+        "cart_url": "/add_to_cart/product62"
+    },
+    {
+        "name": "Bluetooth Tracker",
+        "price": 479,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product63"
+    },
+    {
+        "name": "Video Doorbell",
+        "price": 32,
+        "image": "product10.jpg",
+        "description": "Convenient and easy to use.",
+        "cart_url": "/add_to_cart/product64"
+    },
+    {
+        "name": "Smart Thermostat",
+        "price": 42,
+        "image": "product10.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product65"
+    },
+    {
+        "name": "3D Printer",
+        "price": 129,
+        "image": "product10.jpg",
+        "description": "Designed for performance.",
+        "cart_url": "/add_to_cart/product66"
+    },
+    {
+        "name": "Smart Thermostat",
+        "price": 482,
+        "image": "product10.jpg",
+        "description": "Enhance your experience.",
+        "cart_url": "/add_to_cart/product67"
+    },
+    {
+        "name": "Air Purifier",
+        "price": 413,
+        "image": "product10.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product68"
+    },
+    {
+        "name": "Fitness Band",
+        "price": 208,
+        "image": "product10.jpg",
+        "description": "Sleek and modern design.",
+        "cart_url": "/add_to_cart/product69"
+    },
+    {
+        "name": "Fitness Band",
+        "price": 348,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product70"
+    },
+    {
+        "name": "Pet Feeder",
+        "price": 399,
+        "image": "product10.jpg",
+        "description": "Enhance your experience.",
+        "cart_url": "/add_to_cart/product71"
+    },
+    {
+        "name": "Standing Desk",
+        "price": 404,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product72"
+    },
+    {
+        "name": "Elegant Dress",
+        "price": 487,
+        "image": "product10.jpg",
+        "description": "Compact and powerful.",
+        "cart_url": "/add_to_cart/product73"
+    },
+    {
+        "name": "Espresso Machine",
+        "price": 372,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product74"
+    },
+    {
+        "name": "LED Desk Lamp",
+        "price": 80,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product75"
+    },
+    {
+        "name": "Sports Watch",
+        "price": 491,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product76"
+    },
+    {
+        "name": "Robot Vacuum",
+        "price": 56,
+        "image": "product10.jpg",
+        "description": "User-friendly and efficient.",
+        "cart_url": "/add_to_cart/product77"
+    },
+    {
+        "name": "Smart Doorbell",
+        "price": 73,
+        "image": "product10.jpg",
+        "description": "Enhance your experience.",
+        "cart_url": "/add_to_cart/product78"
+    },
+    {
+        "name": "Pet Feeder",
+        "price": 94,
+        "image": "product10.jpg",
+        "description": "Compact and powerful.",
+        "cart_url": "/add_to_cart/product79"
+    },
+    {
+        "name": "Pressure Cooker",
+        "price": 39,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product80"
+    },
+    {
+        "name": "Smart Switch",
+        "price": 403,
+        "image": "product10.jpg",
+        "description": "Sleek and modern design.",
+        "cart_url": "/add_to_cart/product81"
+    },
+    {
+        "name": "USB-C Hub",
+        "price": 116,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product82"
+    },
+    {
+        "name": "Sports Watch",
+        "price": 87,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product83"
+    },
+    {
+        "name": "Robot Vacuum",
+        "price": 480,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product84"
+    },
+    {
+        "name": "Travel Mug",
+        "price": 247,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product85"
+    },
+    {
+        "name": "Fitness Band",
+        "price": 275,
+        "image": "product10.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product86"
+    },
+    {
+        "name": "Streaming Stick",
+        "price": 64,
+        "image": "product10.jpg",
+        "description": "Comfort and functionality.",
+        "cart_url": "/add_to_cart/product87"
+    },
+    {
+        "name": "3D Printer",
+        "price": 190,
+        "image": "product10.jpg",
+        "description": "High-quality product for everyday use.",
+        "cart_url": "/add_to_cart/product88"
+    },
+    {
+        "name": "Elegant Dress",
+        "price": 406,
+        "image": "product10.jpg",
+        "description": "Comfort and functionality.",
+        "cart_url": "/add_to_cart/product89"
+    },
+    {
+        "name": "Wireless Router",
+        "price": 205,
+        "image": "product10.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product90"
+    },
+    {
+        "name": "Digital Camera",
+        "price": 329,
+        "image": "product10.jpg",
+        "description": "Comfort and functionality.",
+        "cart_url": "/add_to_cart/product91"
+    },
+    {
+        "name": "Standing Desk",
+        "price": 271,
+        "image": "product10.jpg",
+        "description": "Portable and versatile.",
+        "cart_url": "/add_to_cart/product92"
+    },
+    {
+        "name": "Dash Cam",
+        "price": 329,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product93"
+    },
+    {
+        "name": "Streaming Stick",
+        "price": 120,
+        "image": "product10.jpg",
+        "description": "Compact and powerful.",
+        "cart_url": "/add_to_cart/product94"
+    },
+    {
+        "name": "Electric Grill",
+        "price": 370,
+        "image": "product10.jpg",
+        "description": "Enhance your experience.",
+        "cart_url": "/add_to_cart/product95"
+    },
+    {
+        "name": "Standing Desk",
+        "price": 367,
+        "image": "product10.jpg",
+        "description": "Enhance your experience.",
+        "cart_url": "/add_to_cart/product96"
+    },
+    {
+        "name": "Bluetooth Tracker",
+        "price": 498,
+        "image": "product10.jpg",
+        "description": "Perfect for any occasion.",
+        "cart_url": "/add_to_cart/product97"
+    },
+    {
+        "name": "Smart Light Bulb",
+        "price": 227,
+        "image": "product10.jpg",
+        "description": "Designed for performance.",
+        "cart_url": "/add_to_cart/product98"
+    },
+    {
+        "name": "Fitness Band",
+        "price": 175,
+        "image": "product10.jpg",
+        "description": "Sleek and modern design.",
+        "cart_url": "/add_to_cart/product99"
+    },
+    {
+        "name": "Portable Hard Drive",
+        "price": 68,
+        "image": "product10.jpg",
+        "description": "Durable and reliable.",
+        "cart_url": "/add_to_cart/product100"
+    }
+]
